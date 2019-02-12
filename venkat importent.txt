@@ -1,0 +1,125 @@
+https://www.computerhope.com/unix.htm
+https://www.edureka.co/blog/continuous-delivery-vs-continuous-deployment/
+https://www.edureka.co/blog/top-10-devops-tools/
+https://www.edureka.co/blog/install-kubernetes-on-ubuntu
+https://docs.ansible.com/ansible/latest/reference_appendices/glossary.html
+https://docs.ansible.com/ansible/latest/scenario_guides/guide_aws.html
+https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html
+https://codingcompiler.com/jenkins-interview-questions-answers/
+https://codingcompiler.com/linux-administrator-interview-questions-answers/#more-524
+https://codingcompiler.com/tutorials/interview-questions/ansible-interview-questions/
+https://codingcompiler.com/aws-devops-interview-questions-answers/
+https://codingcompiler.com/git-interview-questions-answers/#more-1179
+https://codingcompiler.com/maven-interview-questions-answers/
+https://orga.cat/posts/most-useful-git-commands
+https://www.javatpoint.com/maven-interview-questions
+https://docs.ansible.com/ansible/latest/user_guide/playbooks.html
+
+Docker Compose: It is a tool for defining and running multi-container Docker applications. With Docker Compose, you can use a Compose file to configure your application’s services. Then, using a single command, you can create and start all the services from your configuration.
+
+Suppose you have multiple applications in various containers and all those containers are linked together. So, you don’t want to execute each of those containers one by one. But, you want to run those containers with a single command. That’s where Docker Compose comes in to the picture. With it you can run multiple applications in various containers with a single command. i.e. docker-compose up.
+
+Example: Imagine you have different containers, one running a web app, another running a postgres and another running redis, in a YAML file. That is called docker compose file, from there you can run these containers with a single command.
+
+
+
+to stop or shuntdown the process in master node 
+
+ docker node update --availability drain Manager-1
+  
+The comand shows the how many apache application running each node
+docker service ps  apache2-App-Container
+
+
+
+
+
+wordpress:
+ 
+image: wordpress
+ 
+links:
+ 
+- wordpress_db:mysql
+ 
+ports:
+ 
+- 8080:80
+ 
+wordpress_db:
+ 
+image: mariadb
+ 
+environment:
+ 
+MYSQL_ROOT_PASSWORD: edureka
+ 
+phpmyadmin:
+ 
+image: corbinu/docker-phpmyadmin
+ 
+links:
+ 
+- wordpress_db:mysql
+ 
+ports:
+ 
+- 8181:80
+ 
+environment:
+ 
+MYSQL_USERNAME: root
+ 
+MYSQL_ROOT_PASSWORD: edureka
+
+, What Is Docker Swarm?
+Docker Swarm is a technique to create and maintain a cluster of Docker Engines. The Docker engines can be hosted on different nodes, and these nodes which are in remote locations form a Cluster when connected in Swarm mode.
+
+Why Use Docker Swarm?
+For reasons mentioned already! Achieving high availability without any downtime is a priority for every service provider out there. Will high availability impress your clients? Well, they won’t be impressed if they face downtime. That is a no-brainer.
+
+Other Benefits Of Docker Swarm
+Like a lot of other services, Docker Swarm does auto load-balancing for us. Hence, there is no need for DevOps engineers to route processing requests to other nodes when one fails. The cluster’s manager will automatically perform load balancing for us.
+
+Git is a free, open source distributed version control system tool designed to handle everything from small to very large projects with speed and efficiency. It was created by Linus Torvalds in 2005 to develop Linux Kernel. Git has the functionality, performance, security and flexibility that most teams and individual developers need.
+Centralized VCS
+Centralized version control system (CVCS) uses a central server to store all files and enables team collaboration. It works on a single repository to which users can directly access a central server.
+Distributed VCS
+These systems do not necessarily rely on a central server to store all the versions of a project file.
+
+In Distributed VCS, every contributor has a local copy or “clone” of the main repository i.e. everyone maintains a local repository of their own which contains all the files and metadata present in the main repository.
+Git vs GitHub
+git logo - Git vs GitHub - Edureka	GitHub logo - Git vs GitHub - Edureka
+1. It is a software	1. It is a service
+2. It is installed locally on the system	2. It is hosted on  Web
+3. It is a command line tool	3. It provides a graphical interface
+4. It is a tool to manage different versions of edits, made to files in a git repository	4. It is a space to upload a copy of the Git repository
+5. It provides functionalities like Version Control System Source Code Management	5. It provides functionalities of Git like VCS, Source Code Management as well as adding few of its own features
+
+
+fork: Or commonly known as forking is copying a repository from one user’s account when you don’t have the write access to it. So you can just copy it and modify it under your own account.
+pull: When you have made the changes in codes that you have copied and want to share them with its original order. Then you can send a notification called a “pull request” to them. 
+merge: Now the user who is the owner of those codes, if, finds your changes relevant can merge the changes found in your repo with the original repo, by just button click.
+
+
+
+
+
+What Is Kubernetes?
+You can define Kubernetes as an open-source container orchestration tool that provides a portable platform for automating the deployment of containerized applications.
+
+
+
+
+
+
+
+Features	Kubernetes	Docker Swarm
+Installation & Cluster Configuration	Installation is complicated; but once setup, the cluster is very strong	Installation is very simple; but cluster is not very strong
+GUI	GUI is the Kubernetes Dashboard	There is no GUI
+Scalability	Highly scalable & scales fast	Highly scalable & scales 5x faster than Kubernetes
+Auto-Scaling	Kubernetes can do auto-scaling	Docker Swarm cannot do auto-scaling
+Load Balancing	Manual intervention needed for load balancing traffic between different containers in different Pods	Docker Swarm does auto load balancing of traffic between containers in the cluster
+Rolling Updates & Rollbacks	Can deploy Rolling updates & does automatic Rollbacks	Can deploy Rolling updates, but not automatic Rollbacks
+Data Volumes	Can share storage volumes only with other containers in same Pod	Can share storage volumes with any other container
+Logging & Monitoring	In-built tools for logging & monitoring	3rd party tools like ELK should be used for logging & monitoring
