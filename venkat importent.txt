@@ -1,4 +1,6 @@
-https://www.computerhope.com/unix.htm
+https://www.computerhope.com/unix.html
+http://learnjava-soa.blogspot.com/ ........impotent qutions by madhusudhan reddy
+https://go.cloudbees.com   .........jenkins pipeline examples
 https://www.edureka.co/blog/continuous-delivery-vs-continuous-deployment/
 https://www.edureka.co/blog/top-10-devops-tools/
 https://www.edureka.co/blog/install-kubernetes-on-ubuntu
@@ -15,9 +17,9 @@ https://orga.cat/posts/most-useful-git-commands
 https://www.javatpoint.com/maven-interview-questions
 https://docs.ansible.com/ansible/latest/user_guide/playbooks.html
 
-Docker Compose: It is a tool for defining and running multi-container Docker applications. With Docker Compose, you can use a Compose file to configure your applicationís services. Then, using a single command, you can create and start all the services from your configuration.
+Docker Compose: It is a tool for defining and running multi-container Docker applications. With Docker Compose, you can use a Compose file to configure your application‚Äôs services. Then, using a single command, you can create and start all the services from your configuration.
 
-Suppose you have multiple applications in various containers and all those containers are linked together. So, you donít want to execute each of those containers one by one. But, you want to run those containers with a single command. Thatís where Docker Compose comes in to the picture. With it you can run multiple applications in various containers with a single command. i.e. docker-compose up.
+Suppose you have multiple applications in various containers and all those containers are linked together. So, you don‚Äôt want to execute each of those containers one by one. But, you want to run those containers with a single command. That‚Äôs where Docker Compose comes in to the picture. With it you can run multiple applications in various containers with a single command. i.e. docker-compose up.
 
 Example: Imagine you have different containers, one running a web app, another running a postgres and another running redis, in a YAML file. That is called docker compose file, from there you can run these containers with a single command.
 
@@ -76,10 +78,10 @@ MYSQL_ROOT_PASSWORD: edureka
 Docker Swarm is a technique to create and maintain a cluster of Docker Engines. The Docker engines can be hosted on different nodes, and these nodes which are in remote locations form a Cluster when connected in Swarm mode.
 
 Why Use Docker Swarm?
-For reasons mentioned already! Achieving high availability without any downtime is a priority for every service provider out there. Will high availability impress your clients? Well, they wonít be impressed if they face downtime. That is a no-brainer.
+For reasons mentioned already! Achieving high availability without any downtime is a priority for every service provider out there. Will high availability impress your clients? Well, they won‚Äôt be impressed if they face downtime. That is a no-brainer.
 
 Other Benefits Of Docker Swarm
-Like a lot of other services, Docker Swarm does auto load-balancing for us. Hence, there is no need for DevOps engineers to route processing requests to other nodes when one fails. The clusterís manager will automatically perform load balancing for us.
+Like a lot of other services, Docker Swarm does auto load-balancing for us. Hence, there is no need for DevOps engineers to route processing requests to other nodes when one fails. The cluster‚Äôs manager will automatically perform load balancing for us.
 
 Git is a free, open source distributed version control system tool designed to handle everything from small to very large projects with speed and efficiency. It was created by Linus Torvalds in 2005 to develop Linux Kernel. Git has the functionality, performance, security and flexibility that most teams and individual developers need.
 Centralized VCS
@@ -87,7 +89,7 @@ Centralized version control system (CVCS) uses a central server to store all fil
 Distributed VCS
 These systems do not necessarily rely on a central server to store all the versions of a project file.
 
-In Distributed VCS, every contributor has a local copy or ìcloneî of the main repository i.e. everyone maintains a local repository of their own which contains all the files and metadata present in the main repository.
+In Distributed VCS, every contributor has a local copy or ‚Äúclone‚Äù of the main repository i.e. everyone maintains a local repository of their own which contains all the files and metadata present in the main repository.
 Git vs GitHub
 git logo - Git vs GitHub - Edureka	GitHub logo - Git vs GitHub - Edureka
 1. It is a software	1. It is a service
@@ -97,8 +99,8 @@ git logo - Git vs GitHub - Edureka	GitHub logo - Git vs GitHub - Edureka
 5. It provides functionalities like Version Control System Source Code Management	5. It provides functionalities of Git like VCS, Source Code Management as well as adding few of its own features
 
 
-fork: Or commonly known as forking is copying a repository from one userís account when you donít have the write access to it. So you can just copy it and modify it under your own account.
-pull: When you have made the changes in codes that you have copied and want to share them with its original order. Then you can send a notification called a ìpull requestî to them. 
+fork: Or commonly known as forking is copying a repository from one user‚Äôs account when you don‚Äôt have the write access to it. So you can just copy it and modify it under your own account.
+pull: When you have made the changes in codes that you have copied and want to share them with its original order. Then you can send a notification called a ‚Äúpull request‚Äù to them. 
 merge: Now the user who is the owner of those codes, if, finds your changes relevant can merge the changes found in your repo with the original repo, by just button click.
 
 
