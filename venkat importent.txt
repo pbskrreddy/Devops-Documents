@@ -74,7 +74,7 @@ MYSQL_USERNAME: root
  
 MYSQL_ROOT_PASSWORD: edureka
 
-, What Is Docker Swarm?
+What Is Docker Swarm?
 Docker Swarm is a technique to create and maintain a cluster of Docker Engines. The Docker engines can be hosted on different nodes, and these nodes which are in remote locations form a Cluster when connected in Swarm mode.
 
 Why Use Docker Swarm?
